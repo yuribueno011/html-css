@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+</head>
+<style>
+ body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0px;
+    padding: 0;
+ }
+ header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+ }
+
+ main{
+    background-color: green;
+    padding: 10px;
+    margin: 10px 30px;
+    border-radius: 10px 40px;
+
+ }
+
+ footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:1px;
+    margin: 10px;
+
+
+ }
+
+ footer :hover{
+    background-color: blue;
+    padding: 5px;
+
+    
+ }
+
+ nav > a {
+    text-decoration:none;
+    color:green;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px black;
+
+ }
+
+ nav > a:hover{
+    text-decoration: underline;
+    color: red;
+
+
+ }
+
+ nav > p{
+    display:none;
+ }
+
+ nav > a#p1:hover + p{
+    display: block;
+    color: blue;
+    background-color: red;
+ }
+  
+ nav > a{
+    margin:10px;
+    padding: 5px;
+    
+ }
+
+ footer > p{
+   margin:0px;
+
+ }
+</style>
+<body>
+    <header>
+        <h1 id="titulo">Meu site</h1>
+        <nav>
+            <a id="p1" href="#">Link</a>
+             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur fugit labore, similique eos, nobis quos eius ratione ipsa nihil molestiae aliquam. Incidunt recusandae tempore fugiat mollitia quo delectus fugit sequi!</p>
+
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            
+
+
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="noticias">
+            <h2>Notícias</h2>
+            <article>
+                <h3>Título da notícia 1</h3>
+                <p>Conteúdo da notícia 1...</p>
+            </article>
+            <article>
+                <h3>Título da notícia 2</h3>
+                <p>Conteúdo da notícia 2...</p>
+            </article>
+
+
+
+
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Yuri Bueno Gritten</p>
+
+
+    </footer>
+</body>
+</html>
